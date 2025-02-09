@@ -21,7 +21,7 @@ function Input() {
                     width: "220px",
                     height: "30px",
                     borderRadius: "10px",
-                    border: "2px solid #888",
+                    border: "2px solid #000",
                 }}
             />
             <p style={{ marginTop: "10px", fontSize: "18px", marginBottom: "30px"}}>

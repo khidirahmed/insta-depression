@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-const ProgressBar = () => {
+const ProgressBar3 = () => {
     const [progress, setProgress] = useState(0);
 
     const increaseProgress = () => {
@@ -10,7 +10,7 @@ const ProgressBar = () => {
 
     return (
         <Container>
-            <p>Depression</p>
+            <p>Anxiety</p>
             <Bar>
                 <Fill style={{ width: `${progress}%` }} />
             </Bar>
@@ -19,12 +19,12 @@ const ProgressBar = () => {
     );
 };
 
-export default ProgressBar;
+export default ProgressBar3;
 
 // Styled Components
 const Container = styled.div`
   text-align: center;
-  margin-top: 50px;
+  margin-top: 15px;
 `;
 
 const Bar = styled.div`
