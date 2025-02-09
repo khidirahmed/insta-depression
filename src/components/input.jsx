@@ -6,7 +6,7 @@ function Input() {
     return (
         <div style={{ textAlign: "center", marginTop: "50px" }}>
             <label htmlFor="username" style={{ fontSize: "30px", fontWeight: "bold" }}>
-                Enter Username:
+                Username:
             </label>
             <input
                 type="text"

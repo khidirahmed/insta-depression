@@ -13,7 +13,7 @@
     /* Remove padding-top here */
 }
 body {
-    font-family: 'Kulim Park', sans-serif;
+    font-family: 'kulim Park', sans-serif;
     color: #000000;
     background-color: #c0d2de;
     background-size: cover;
@@ -25,7 +25,7 @@ body {
     margin: 0;
     position: relative;
     overflow: auto;
-    padding-top: 80px; /* Moves content below the header */
+    padding-top: 40px; /* Moves content below the header */
 }
 .header {
     display: flex;
@@ -39,12 +39,18 @@ body {
     left: 0;
     z-index: 1000; /* Ensures it stays above scrolling content */
     text-align: center;
+    padding-bottom: 50px;
 }
 
+.h1{
+    font-weight: lighter;
 
+}
 .logo {
-    font-size: 60px;
+    font-size: 90px;
     font-weight: bold;
     color: rgb(0, 0, 0);
     user-select: none;
 }
+
+
