@@ -1,15 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Button = () => {
+const Button = ({ onClick, children }) => {
     return (
         <StyledWrapper>
-            <button>
-                <span>Search X</span>
+            <button onClick={onClick} className="sexy-button">
+                {children}
             </button>
         </StyledWrapper>
     );
 }
+
 
 const StyledWrapper = styled.div`
     button {
@@ -19,8 +20,8 @@ const StyledWrapper = styled.div`
         display: inline-block;
         font-size: 20px; 
         font-weight: 700; 
-        width: 170px;
-        height: 50px; 
+        width: 200px;
+        height: 75px; 
         text-transform: uppercase;
         cursor: pointer;
         transform: skew(-21deg);

@@ -38,9 +38,9 @@ const Bar = styled.div`
 `;
 
 const Fill = styled.div`
-  height: 100%;
-  background: #4caf50;
-  transition: width 0.3s ease-in-out;
+    height: 100%;
+    background: #ae9df1;
+    transition: width 0.3s ease-in-out;
 `;
 
 const Percentage = styled.p`
@@ -52,13 +52,13 @@ const Button = styled.button`
   padding: 10px 20px;
   font-size: 16px;
   border: none;
-  background: #4caf50;
+  background: #ae9df1;
   color: white;
   cursor: pointer;
   border-radius: 5px;
   margin-top: 10px;
 
   &:hover {
-    background: #45a049;
+    background: #ae9df1;
   }
 `;

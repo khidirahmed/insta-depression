@@ -5,7 +5,7 @@ import os
 from flask import Flask, request, redirect, session, jsonify, make_response
 from dotenv import load_dotenv
 from flask_cors import CORS
-# from flask_session import Session
+from flask_session import Session
 
 # Load environment variables from .env file
 load_dotenv()

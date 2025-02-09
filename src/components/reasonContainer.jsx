@@ -54,16 +54,16 @@ const Box = styled.div`
 `;
 
 const Button = styled.button`
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  background: #4caf50;
-  color: white;
-  cursor: pointer;
-  border-radius: 5px;
-  margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background: #84e087;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
 
-  &:hover {
-    background: #45a049;
-  }
+    &:hover {
+        background: #84e087;
+    }
 `;
