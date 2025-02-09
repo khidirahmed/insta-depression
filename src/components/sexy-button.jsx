@@ -5,25 +5,26 @@ const Button = () => {
     return (
         <StyledWrapper>
             <button>
-                <span>Button</span>
+                <span>Search X</span>
             </button>
         </StyledWrapper>
     );
 }
 
 const StyledWrapper = styled.div`
-  button {
-    background: #fff;
-    border: none;
-    padding: 10px 20px;
-    display: inline-block;
-    font-size: 15px;
-    font-weight: 600;
-    width: 120px;
-    text-transform: uppercase;
-    cursor: pointer;
-    transform: skew(-21deg);
-  }
+    button {
+        background: #fff;
+        border: none;
+        padding: 15px 30px; /* Increased padding */
+        display: inline-block;
+        font-size: 20px; /* Increased font size */
+        font-weight: 700; /* Make text bolder */
+        width: 170px; /* Increased button width */
+        height: 50px; /* Increased button height */
+        text-transform: uppercase;
+        cursor: pointer;
+        transform: skew(-21deg);
+    }
 
   span {
     display: inline-block;

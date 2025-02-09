@@ -16,14 +16,16 @@ function Input() {
                 placeholder="Type your username..."
                 style={{
                     marginLeft: "10px",
-                    padding: "8px",
-                    fontSize: "16px",
-                    borderRadius: "5px",
-                    border: "1px solid #ccc",
+                    padding: "12px",
+                    fontSize: "20px",
+                    width: "220px",
+                    height: "30px",
+                    borderRadius: "10px",
+                    border: "2px solid #888",
                 }}
             />
-            <p style={{ marginTop: "10px", fontSize: "18px" }}>
-                X(FKA Twitter) Username @<strong>{username}</strong>
+            <p style={{ marginTop: "10px", fontSize: "18px", marginBottom: "30px"}}>
+                Username @<strong>{username}</strong>
             </p>
         </div>
     );
