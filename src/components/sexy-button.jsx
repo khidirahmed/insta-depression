@@ -15,12 +15,12 @@ const StyledWrapper = styled.div`
     button {
         background: #fff;
         border: none;
-        padding: 15px 30px; /* Increased padding */
+        padding: 15px 30px; 
         display: inline-block;
-        font-size: 20px; /* Increased font size */
-        font-weight: 700; /* Make text bolder */
-        width: 170px; /* Increased button width */
-        height: 50px; /* Increased button height */
+        font-size: 20px; 
+        font-weight: 700; 
+        width: 170px;
+        height: 50px; 
         text-transform: uppercase;
         cursor: pointer;
         transform: skew(-21deg);
